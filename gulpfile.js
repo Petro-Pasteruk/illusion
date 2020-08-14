@@ -14,7 +14,7 @@ const
 
 gulp.task("jsComp", function () {
     return gulp.src("./develop/js/*")
-        .pipe(gulp.dest("./public/js/"));
+        .pipe(gulp.dest("./docs/js/"));
 });
 
 gulp.task("html", function () {
@@ -31,7 +31,7 @@ gulp.task("html", function () {
         .pipe(fileInclude({
             prefix: "@@"
         }))
-        .pipe(gulp.dest("./public/"));
+        .pipe(gulp.dest("./docs/"));
 });
 
 gulp.task("scssComp", function () {
@@ -43,11 +43,11 @@ gulp.task("scssComp", function () {
             overrideBrowserslist: ["last 4 versions"]
         }))
         .pipe(sourcemaps.write())
-        .pipe( gulp.dest("./public/css/"));
+        .pipe( gulp.dest("./docs/css/"));
 });
 
 gulp.task("watch", function () {
-    watch(["./public/*.html", "./public/css/**/*.css", "./public/js/**/*.js"], gulp.parallel( browserSync.reload ));
+    watch(["./docs/*.html", "./docs/css/**/*.css", "./docs/js/**/*.js"], gulp.parallel( browserSync.reload ));
     watch("./develop/**/*.scss", gulp.parallel("scssComp"));
     watch("./develop/js/**/*.js", gulp.parallel("jsComp"));
     watch("./develop/*.html", gulp.parallel("html"));
@@ -56,7 +56,7 @@ gulp.task("watch", function () {
 gulp.task("server", function () {
     browserSync.init({
         server: {
-            baseDir: "./public/"
+            baseDir: "./docs/"
         }
     })
 });
