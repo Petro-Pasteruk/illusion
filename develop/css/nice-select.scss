@@ -20,6 +20,12 @@
   align-items: center;
   cursor: pointer;
 }
+.select * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .current {
   color: #000;
   font-size: 20px;
