@@ -716,11 +716,11 @@ $(document).ready(function () {
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Friday: </div>
-                    <div class="open__item-text">10 am – 01 am</div>
+                    <div class="open__item-text" style="margin-right: 1px;">10 am – 01 am</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Saturday:</div>
-                    <div class="open__item-text">10 am – 01 am</div>
+                    <div class="open__item-text" style="margin-right: 1px;">10 am – 01 am</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Sunday:</div>

@@ -142,11 +142,11 @@
     .section5__card-item {
         width: 28rem;
     }
+}
+@media (max-width: 940px) {
     .contact__item-img picture .img {
         min-width: initial;
     }
-}
-@media (max-width: 940px) {
     .section6__headline {
         margin-top: 5rem;
     }
@@ -395,6 +395,11 @@
         width: 100%;
     }
 }
+@media (max-width: 750px) {
+    .contact__item-img {
+        min-width: 4.0625rem;
+    }
+}
 @media (max-width: 729px) {
     .slick-prev {
         left: 27%;
@@ -465,6 +470,9 @@
     }
     .contact__item{
         margin-bottom: 1.75rem;
+    }
+    .contact__item.item-social .contact__item-img {
+        margin-right: 1.75rem;
     }
     .contact__item-img {
         min-width: 35px;
@@ -749,6 +757,9 @@
 @media (max-width: 360px) {
     .aboutus__right {
         height: 62rem;
+    }
+    .contact__item-img {
+        min-width: 26px;
     }
 }
 @media (max-width: 359px) {
