@@ -1431,9 +1431,9 @@ footer{
     font-size: 1.625rem;
     text-transform: uppercase;
     line-height: 1;
-    text-align: left;
     letter-spacing: .2em;
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .contact__item{
@@ -1447,6 +1447,7 @@ footer{
     height: 21%;
 }
 .contact__item-img{
+    min-width: 4.0625rem;
     width: 4.0625rem;
     margin-right: 1rem;
 }
@@ -1457,10 +1458,6 @@ footer{
 
 .contact__item.item-social .contact__item-img {
     margin-right: .75rem;
-}
-
-.contact__item-img picture .img {
-    min-width: 38px;
 }
 
 .contact__item-text,
@@ -1496,6 +1493,7 @@ footer{
     font-size: 1.25rem;
     line-height: 1.222;
     letter-spacing: .1em;
+    margin-right: 0 !important;
 }
 .open__item-text:nth-of-type(2) {
     width: 137px;
