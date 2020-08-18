@@ -355,7 +355,7 @@ a{
     background-repeat:no-repeat;
     background-image:url(../img/blik.png) !important;
     top:50%;
-    right:90%;
+    right:100%;
 }
 .spacial-raiting:before{
     opacity:.95;
@@ -368,16 +368,12 @@ a{
     background-size:contain;
     background-repeat:no-repeat;
     background-image:url(../img/blik.png) !important;
-    top:60%;right:90%;
+    top:60%;right:100%;
 }
 
+.spacial-raiting:hover:before,
 .raiting-icone:hover:before {
-    -webkit-animation:Jb 3.4s ease-in-out;
-    animation:Jb 3.4s ease-in-out;
-    -webkit-animation-duration:3.5s;
-    animation-duration:3.5s;
-}
-.spacial-raiting:hover:before {
+    right: 90%;
     -webkit-animation:Jb 3.4s ease-in-out;
     animation:Jb 3.4s ease-in-out;
     -webkit-animation-duration:3.5s;
