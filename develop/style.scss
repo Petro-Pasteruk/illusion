@@ -342,7 +342,8 @@ a{
     -webkit-transition:15s ease-in;
     -o-transition:15s ease-in;
     transition:15s ease-in}
-.raiting-icone:hover:before{
+
+.raiting-icone:before{
     opacity:.95;
     cursor:pointer;
     content:"";
@@ -355,12 +356,8 @@ a{
     background-image:url(../img/blik.png) !important;
     top:50%;
     right:90%;
-    -webkit-animation:Jb 3.4s ease-in-out;
-            animation:Jb 3.4s ease-in-out;
-    -webkit-animation-duration:3.5s;
-            animation-duration:3.5s;
 }
-.spacial-raiting:hover:before{
+.spacial-raiting:before{
     opacity:.95;
     cursor:pointer;
     content:"";
@@ -372,10 +369,19 @@ a{
     background-repeat:no-repeat;
     background-image:url(../img/blik.png) !important;
     top:60%;right:90%;
+}
+
+.raiting-icone:hover:before {
     -webkit-animation:Jb 3.4s ease-in-out;
-            animation:Jb 3.4s ease-in-out;
+    animation:Jb 3.4s ease-in-out;
     -webkit-animation-duration:3.5s;
-            animation-duration:3.5s;
+    animation-duration:3.5s;
+}
+.spacial-raiting:hover:before {
+    -webkit-animation:Jb 3.4s ease-in-out;
+    animation:Jb 3.4s ease-in-out;
+    -webkit-animation-duration:3.5s;
+    animation-duration:3.5s;
 }
 
 @-webkit-keyframes Jb{
