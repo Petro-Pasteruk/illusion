@@ -8,7 +8,6 @@
         line-height: 1.5;
     }
 }
-
 @media (max-height: 410px) {
     .aboutus__left-text {
         line-height: 1.4;
@@ -83,6 +82,11 @@
         font-size: 75%;
     }
 }
+@media (max-width: 1240px) {
+    .h1 {
+        font-size: 1.4rem;
+    }
+}
 @media (max-width: 1202px) {
     .card-logo {
         height: 50px;
@@ -114,6 +118,11 @@
 @media (max-width: 1185px) {
     .section5__card-item {
         width: 28rem;
+    }
+}
+@media (max-width: 1156px) {
+    .h1 {
+        font-size: 1.3rem;
     }
 }
 @media (max-width: 1130px) {
@@ -466,7 +475,7 @@
         width: 48%;
     }
     .h1 {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
     .open__item-text:nth-of-type(2) {
@@ -613,6 +622,9 @@
     .open__item-text {
         font-size: 15px;
     }
+    .h1 {
+        font-size: 14px;
+    }
 }
 @media (max-width: 480px) {
     .contact__item-text, .mobile-phone, .decktop-phone,
@@ -680,6 +692,14 @@
         right: 8%;
     }
 }
+@media (max-width: 440px) {
+    .h1 {
+        font-size: 13px;
+    }
+    .contact__item-text, .mobile-phone, .decktop-phone, .contact__item-text1, .mailto, .maplink, .open__item-text {
+        font-size: 12px;
+    }
+}
 @media (max-width: 449px) {
     .slick-dots li {
         width: 21px;
@@ -712,10 +732,10 @@
     .contact__item-text,
     .mobile-phone,
     .decktop-phone {
-        font-size: 12px;
+        font-size: 10px;
     }
     .h1 {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media (max-width: 400px) {
@@ -774,6 +794,9 @@
     .aboutus__right {
         height: 64rem;
     }
+    .h1 {
+        font-size: 11px;
+    }
 }
 @media (max-width: 360px) {
     .aboutus__right {
@@ -813,9 +836,20 @@
     .span-heading {
         font-size: 9px;
     }
-
     .aboutus__right {
         height: 58rem;
+    }
+    .open__item-text,
+    .contact__item-text1,
+    .mailto,
+    .maplink,
+    .contact__item-text,
+    .mobile-phone,
+    .decktop-phone {
+        font-size: 9px;
+    }
+    .h1 {
+        font-size: 10px;
     }
 }
 @media (max-width: 330px) {
@@ -832,9 +866,15 @@
         font-size: 9.5px;
     }
 }
-@media (max-width: 321px) {
-    .open__item-text, .contact__item-text1, .mailto, .maplink, .contact__item-text, .mobile-phone, .decktop-phone {
-        font-size: 9.4px;
+@media (max-width: 323px) {
+    .open__item-text,
+    .contact__item-text1,
+    .mailto,
+    .maplink,
+    .contact__item-text,
+    .mobile-phone,
+    .decktop-phone {
+        font-size: 9.3px;
     }
 }
 @media (max-width: 320px) {
