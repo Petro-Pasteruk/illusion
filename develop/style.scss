@@ -353,7 +353,7 @@ a{
     height: 2.5rem;
     background-size:contain;
     background-repeat:no-repeat;
-    background-image:url(../img/blik.png) !important;
+    background-image:url(../images/webp/blik.webp) !important;
     top:50%;
     right:100%;
 }
@@ -367,7 +367,7 @@ a{
     height:2.5rem;
     background-size:contain;
     background-repeat:no-repeat;
-    background-image:url(../img/blik.png) !important;
+    background-image:url(../images/webp/blik.webp) !important;
     top:60%;right:100%;
 }
 
@@ -799,7 +799,7 @@ li.slick-active {
 }
 .slick-next {
     right: 3%;
-    background-image: url(../img/next.png) !important;
+    background-image: url(../images/png/next.png) !important;
     background-size: cover !important;
 }
 .slick-prev:before, .slick-next:before{
@@ -822,7 +822,7 @@ li.slick-active {
 .slick-prev {
     left: 3%;
     z-index: 100;
-    background-image: url(../img/back.png) !important;
+    background-image: url(../images/png/back.png) !important;
     background-size: cover !important;
 }
 .slick-prev::before,
@@ -879,11 +879,11 @@ li.slick-active {
 }
 
 .swiper-button-next:after{
-    background-image: url(../img/next.png) !important;
+    background-image: url(../images/png/next.png) !important;
 }
 
 .swiper-button-prev:after {
-    background-image: url(../img/back.png) !important;
+    background-image: url(../images/png/back.png) !important;
 }
 
 .swiper-button-prev,
