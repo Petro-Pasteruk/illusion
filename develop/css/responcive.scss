@@ -708,6 +708,14 @@
     }
 }
 @media (max-width: 425px) {
+    *,
+    *::after,
+    *::before {
+        overflow-x: hidden;
+    }
+    .page__row.onVisible * {
+        overflow-x: initial;
+    }
     .aboutus__right{
         height: 72rem;
     }
