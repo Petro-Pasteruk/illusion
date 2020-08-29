@@ -731,6 +731,9 @@ input:checked + .li > label { display: block; }
     margin: 0 36px 0 0;
     position: relative;
 }
+.slider__item:focus {
+    outline: none;
+}
 .slider__item-img{
     position: absolute;
     top:0;
@@ -753,6 +756,9 @@ input:checked + .li > label { display: block; }
     letter-spacing: .075em;
     font-family: 'Noto Sans', sans-serif;
 }
+//.hidden::-webkit-scrollbar {
+//    width: 10px;
+//}
 .span-heading{
     display: inline-block;
     padding-bottom: 2rem;
