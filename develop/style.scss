@@ -809,6 +809,9 @@ li.slick-active {
     background-image: url(../images/png/next.png) !important;
     background-size: cover !important;
 }
+.slick-disabled {
+    display: none;
+}
 .slick-prev:before, .slick-next:before{
     font-size: 60px;
 }
