@@ -586,6 +586,13 @@
     .block__text-text {
         display: none;
     }
+    .section__info-block {
+        height: 90px;
+    }
+    .block__text-textMob {
+        font-size: 10px;
+        display: block;
+    }
     #customers-testimonials .owl-item.active.center .item {
         margin-left: auto;
         margin-right: auto;
@@ -739,6 +746,7 @@
     .section__card-headline,
     .section6__headline {
         margin-bottom: 3.5rem;
+        overflow: hidden;
     }
     body,
     html {
