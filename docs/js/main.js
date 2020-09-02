@@ -727,7 +727,7 @@ $(document).ready(function () {
                     <div class="open__item-text">10 am – 11 pm</div>
                 </div>
                 <div class="open__item">
-                    <div class="open__item-text day">Last Ticket Sold One Hour Prior to Closing</div>
+                    <div class="open__item-text day">Last ticket sold one hour prior to closing</div>
                 </div>`;
         newOpen.innerHTML = `
                 <div class="h1">Hours open 365 days</div>
@@ -760,7 +760,7 @@ $(document).ready(function () {
                     <div class="open__item-text">10 am – 10 rm</div>
                 </div>
                 <div class="open__item">
-                    <div class="open__item-text day">Last Ticket Sold One Hour Prior to Closing</div>
+                    <div class="open__item-text day">Last ticket sold one hour prior to closing</div>
                 </div>`;
 
         oldContactItem.innerHTML = `<a title="click to visit map" target="_blank" class="maplink" href="https://goo.gl/maps/11mRJZFuJsZhbc2K9">211 S State St, Chicago, IL<span>60604</span></a>`;
