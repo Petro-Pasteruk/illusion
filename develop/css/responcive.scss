@@ -798,11 +798,12 @@
     .contact__item-img {
         min-width: 26px;
     }
-    .h1 {
-        font-size: 11px;
-    }
+    
     .contact__item.item-social .contact__item-img {
         margin-right: 2rem;
+    }
+    .h1 {
+        font-size: 11px;
     }
 }
 @media (max-width: 375px) {
