@@ -5,17 +5,17 @@
 }
 @media (max-height: 500px) {
     .aboutus__left-text {
-        line-height: 1.6;
+        line-height: 1.3;
     }
 }
 @media (max-height: 440px) {
     .aboutus__left-text {
-        line-height: 1.5;
+        line-height: 1.3;
     }
 }
 @media (max-height: 410px) {
     .aboutus__left-text {
-        line-height: 1.4;
+        line-height: 1.3;
     }
 }
 @media (max-height: 380px) {
@@ -805,11 +805,12 @@
     .contact__item-img {
         min-width: 26px;
     }
-    .h1 {
-        font-size: 12px;
-    }
+    
     .contact__item.item-social .contact__item-img {
         margin-right: 2rem;
+    }
+    .h1 {
+        font-size: 11px;
     }
 }
 @media (max-width: 375px) {
