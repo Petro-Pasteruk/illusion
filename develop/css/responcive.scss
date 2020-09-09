@@ -537,6 +537,7 @@
     }
     .current {
         font-size: 16px!important;
+        font-weight: 300;
     }
     .nice-select .option{
         font-size: 16px!important;
@@ -627,11 +628,10 @@
     .slick-next {
         right: 12%;
     }
-    .content__left-headline {
-        font-size: 19px;
-    }
+    .content__left-headline,
     .content__left-headline span {
-        font-size: 19px;
+        font-size: 21px;
+        line-height: 1.2;
     }
     .section5__card.swiper-container {
         width: 85%;
@@ -773,6 +773,19 @@
     .h1 {
         font-size: 12px;
     }
+    .content__left-bottom {
+        margin-top: 5.5rem;
+        justify-content: space-around;
+    }
+    .content__left-headline {
+        margin: 6rem auto 0;
+    }
+    .content__left {
+        margin-bottom: 6rem;
+    }
+    .slick-dots {
+        display: none;
+    }
 }
 @media (max-width: 400px) {
     .aboutus__right {
@@ -818,13 +831,6 @@
     .spacial-raiting{
         width: 90px;
         margin: 0 15px 10px 15px;
-    }
-    .content__left-headline {
-        font-size: 14.5px;
-    }
-
-    .content__left-headline span {
-        font-size: 14.5px;
     }
 }
 @media (max-width: 370px) {
@@ -901,6 +907,9 @@
     .mobile-phone,
     .decktop-phone {
         font-size: 9.5px;
+    }
+    .content__left-headline, .content__left-headline span {
+        font-size: 20px;
     }
 }
 @media (max-width: 323px) {
