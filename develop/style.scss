@@ -338,6 +338,7 @@ a{
 }
 .raiting-icone:before,
 .spacial-raiting:before{
+    z-index: 1000;
     opacity:1;
     -webkit-transition:15s ease-in;
     -o-transition:15s ease-in;
@@ -353,7 +354,7 @@ a{
     height: 2.5rem;
     background-size:contain;
     background-repeat:no-repeat;
-    background-image:url(../images/webp/blik.webp) !important;
+    background-image:url(../images/png/blik.png) !important;
     top:50%;
     right:100%;
 }
