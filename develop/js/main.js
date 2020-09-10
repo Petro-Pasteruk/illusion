@@ -180,7 +180,7 @@ $('.slider').slick({
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    centerPadding: '8.5rem',
+    // centerPadding: '8.5rem',
     centerMode: false,
     dots: false,
     arrows: true,
