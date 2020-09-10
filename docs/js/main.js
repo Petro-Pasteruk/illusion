@@ -182,7 +182,7 @@ $('.slider').slick({
     slidesToScroll: 1,
     centerPadding: '8.5rem',
     centerMode: false,
-    dots: true,
+    dots: false,
     arrows: true,
     responsive:[
         {
