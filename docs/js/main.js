@@ -175,50 +175,89 @@ jQuery(document).ready(function($) {
         }
     });
 });
+
+// $('.slider').slick({
+//     autoplay: false,
+//     infinite: false,
+//     slidesToShow: 4,
+//     slidesToScroll: 1,
+//     centerPadding: '8.5rem',
+//     centerMode: false,
+//     dots: false,
+//     arrows: true,
+//     responsive:[
+//         {
+//             breakpoint: 940,
+//             settings:{
+//                 slidesToShow: 2
+//             }
+//         },
+//         {
+//             breakpoint: 730,
+//             settings:{
+//                 // slidesToShow: 1
+//             }
+//         },
+//         {
+//             breakpoint: 420,
+//             settings:{
+//                 infinite: true,
+//                 slidesToScroll: 1,
+//             }
+//         },
+//         {
+//             breakpoint: 650,
+//             settings:{
+//                 // slidesToShow: 1.5,
+//                 infinite: true
+//             }
+//         },
+//         {
+//             breakpoint: 500,
+//             settings:{
+//                 slidesToShow: 1,
+//                 infinite: true
+                
+//             }
+//         }
+//     ]
+// });
+
+ 
+
 $('.slider').slick({
-    autoplay: false,
-    infinite: false,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    // centerPadding: '8.5rem',
-    centerMode: false,
     dots: false,
-    arrows: true,
-    responsive:[
-        {
-            breakpoint: 940,
-            settings:{
-                slidesToShow: 2
-            }
-        },
-        {
-            breakpoint: 730,
-            settings:{
-                slidesToShow: 1
-            }
-        },
-        {
-            breakpoint: 420,
-            settings:{
-                infinite: true
-            }
-        }//,
-        // {
-        //     breakpoint: 650,
-        //     settings:{
-        //         slidesToShow: 1.5,
-        //         infinite: true
-        //     }
-        // },
-        // {
-        //     breakpoint: 500,
-        //     settings:{
-        //         slidesToShow: 1,
-        //         infinite: true
-        //     }
-        // }
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    centerPadding: '8.5rem',
+    centerMode: false,
+    responsive: [
+    //   {
+    //     breakpoint: 940,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: false
+    //     }
+    //   },
+ 
+      {
+        breakpoint: 732,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
     ]
-});
+  });
+
+
 
 //wave
 $(function() {
