@@ -949,3 +949,21 @@ $(window).scroll(function(event){
 
     }
 });
+
+//Click more
+const
+    allMoreLink = document.querySelectorAll(".linkMore"),
+    allLinkRemoveListener = document.querySelectorAll(".linkMore.removeListener");
+
+function (item) {
+    const itemText = item.parentElement.parentElement.querySelector(".block1__right-text");
+    itemText.innerText = itemText.innerText + "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur at cum cupiditate dolor, ea eius id ipsa iste, iusto libero maiores modi necessitatibus, obcaecati saepe sapiente suscipit temporibus ullam vitae voluptate! A consectetur corporis delectus dolores doloribus enim, esse est eveniet excepturi exercitationem expedita facilis hic id illum itaque iure laboriosam maxime nobis nulla odit omnis pariatur perferendis perspiciatis porro provident quis quisquam repellat repudiandae sapiente sed sequi soluta suscipit tempore ullam velit veritatis vitae? Debitis deserunt dicta dolore impedit iusto labore laudantium necessitatibus nemo officia perspiciatis placeat, praesentium saepe ullam veniam voluptate voluptatem voluptatum. Animi at autem deserunt dolorem dolores, eligendi eos eum ex iste iusto laboriosam maiores nisi nostrum odio, officia placeat porro quidem quod rerum sequi similique, soluta suscipit tempora temporibus velit veniam vero voluptatem? Architecto beatae dolores magnam maiores nemo possimus quo. Alias autem cupiditate eveniet exercitationem fugiat ipsam non, praesentium quibusdam ratione recusandae rem saepe sapiente totam unde vel! Ab accusantium ad atque autem consequuntur corporis deleniti ducimus ea eius eligendi eos error eveniet fugit, iste iure labore laboriosam laudantium magni maiores minus molestiae mollitia nemo nesciunt numquam quae, quaerat quas quasi quia ratione recusandae repellat repellendus repudiandae sequi, suscipit tempora tempore voluptates! Architecto.";
+});
+
+allMoreLink.forEach(item => {
+    item.addEventListener("click",
+});
+
+allLinkRemoveListener.forEach(item => {
+    item.removeEventListener("click");
+});
