@@ -918,6 +918,7 @@ $(document).ready(function () {
                 selectCurrent.innerText = sessionStorage.getItem("selectCity");
                 toggleCity();
             }
+            counter++;
         }
     );
 
