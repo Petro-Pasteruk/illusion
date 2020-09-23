@@ -83,7 +83,6 @@ body.no-scroll {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: opacity .3s;
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,.7);
@@ -368,6 +367,7 @@ a{
         -ms-flex-align: end;
             align-items: flex-end;
     margin-top: 1.5rem;
+    max-width: 450px;
 }
 .facebook,
 .google{
@@ -396,7 +396,6 @@ a{
     height: 50%;
     width: 100%;
 }
-
 .raiting-icone,
 .spacial-raiting{
     position: relative;
@@ -1260,6 +1259,7 @@ li.slick-active {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-right: 2rem;
 }
 .section__info-block1.column {
     flex-direction: column;
@@ -1267,20 +1267,18 @@ li.slick-active {
 .section__info-subBlock1 {
     display: flex;
     justify-content: space-between;
-    max-height: 200px;
 }
 .section__info-subBlock1:nth-of-type(1) {
     margin-bottom: 20px;
 }
 .section__info-subBlock1 .block1__right {
     max-height: 195px;
-    overflow-y: auto;
 }
 .block1__left{
     position: relative;
     width: 47%;
-    height: 193px;
-    overflow-y: auto;
+    //height: 193px;
+    //overflow-y: auto;
 }
 .linkMore {
     cursor: pointer;
@@ -1339,7 +1337,6 @@ li.slick-active {
 .block21__right{
     width: 47%;
     max-height: 195px;
-    overflow-y: auto;
 }
 .block1__right-link{
     font-size: 1.2rem;
