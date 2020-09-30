@@ -725,6 +725,9 @@
     }
 }
 @media (max-width: 425px) {
+    body {
+        overflow-x: hidden !important;
+    }
     .page__row.onVisible * {
         overflow-x: initial;
     }
