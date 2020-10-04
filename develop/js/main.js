@@ -781,31 +781,31 @@ $(document).ready(function () {
                 <div class="h1">Hours open 365 days</div>
                 <div class="open__item">
                     <div class="open__item-text">Monday:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Tuesday:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Wednesdaу:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Thursday:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Friday: </div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Saturday:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text">Sunday:</div>
-                    <div class="open__item-text">10 am – 10 rm</div>
+                    <div class="open__item-text">10 am – 10 pm</div>
                 </div>
                 <div class="open__item">
                     <div class="open__item-text day">Last ticket sold one hour prior to closing</div>
