@@ -882,7 +882,7 @@ li.slick-active {
     background-size: cover !important;
 }
 .slick-disabled {
-    display: none;
+    display: none !important;
 }
 .slick-prev:before, .slick-next:before{
     font-size: 60px;

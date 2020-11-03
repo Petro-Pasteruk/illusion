@@ -227,10 +227,10 @@ jQuery(document).ready(function($) {
 
 $('.slider').slick({
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     centerPadding: '8.5rem',
     centerMode: false,
     responsive: [
