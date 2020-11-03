@@ -1541,6 +1541,8 @@ footer{
 
 .contact__item.item-social {
     margin-bottom: 0;
+    position: relative;
+    z-index: 1001;
 }
 
 .contact__item.item-social .contact__item-img {
