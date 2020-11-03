@@ -194,13 +194,14 @@ a{
 }
 .content__left{
     width: 36.25rem;
-}
-.content__left-headline{
+}.content__left-headline
+{
     font-size: 4.3125rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 1;
     text-align: left;
+    font-weight: 100;
 }
 .content__left-headline span{
     font-size: 5.375rem;
