@@ -680,7 +680,7 @@ video {
             transform: translateY(-50%)!important;
     opacity: 0;
     width: 100%;
-    /*height: 100%;*/
+    height: 100%;
     display: block;
     position: absolute;
 
@@ -700,6 +700,7 @@ video {
 .img-inner img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .img-inner ~ label.sb-bignav { opacity: 0.5; }
@@ -840,6 +841,7 @@ input:checked + .li > label { display: block; }
 }
 .slick-slide img {
     height: 100%;
+    object-fit: cover;
 }
 .slick-initialized .slick-slide {
     height: 280px;
@@ -1016,6 +1018,7 @@ li.slick-active {
     height: 88%;
     width: 102%;
     margin-left: -2px;
+    object-fit: cover;
 }
 .section5__card-item{
     position: relative;
