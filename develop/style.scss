@@ -843,6 +843,10 @@ input:checked + .li > label { display: block; }
     height: 100%;
     object-fit: cover;
 }
+.item img{
+    height: 280px;
+    object-fit: cover;
+}
 .slick-initialized .slick-slide {
     height: 280px;
 }
