@@ -14,11 +14,10 @@ $('.js-button3').click(function() {
     $('.js-overlay3').fadeIn();
     $('.js-overlay3').addClass('disabled');
 });
-$('.js-button4').click(function() {
-
-    $('.js-overlay4').fadeIn();
-    $('.js-overlay4').addClass('disabled');
-});
+$('.js-button4').click(function () {
+    $('.js-overlay4').fadeIn()
+    $('.js-overlay4').addClass('disabled')
+})
 $('.js-button5').click(function() {
 
     $('.js-overlay5').fadeIn();
